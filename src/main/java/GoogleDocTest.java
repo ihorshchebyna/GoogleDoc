@@ -2,7 +2,7 @@ import actions.DriveActions;
 import actions.GoogleDocActions;
 import actions.InboxActions;
 import actions.LoginActions;
-import org.junit.jupiter.api.Test;
+import org.junit.gen5.api.Test;
 
 public class GoogleDocTest extends BaseTest {
     private LoginActions loginActions;
