@@ -13,6 +13,7 @@ public class GoogleDocTest extends BaseTest {
 
     private final String login = "limeteststoneacc@gmail.com";
     private final String password = "pass123word";
+    private final String fileName = "File Name";
 
     @Test
     void createGoogleDocAndRename() {
@@ -29,7 +30,7 @@ public class GoogleDocTest extends BaseTest {
 
         driveActions.createDoc();
 
-        googleDocActions.changeDocName("File Name");
-        googleDocActions.checkDocName("File Name");
+        googleDocActions.changeDocName(fileName);
+        googleDocActions.checkDocName(fileName);
     }
 }
